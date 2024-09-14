@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Dit is een recreatie van de webpagina voor deel 1 van opdracht 1 -->
+<!-- Erik Kouwenhoven 310078 HBO-ICT dt -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recreatie webpagina opdracht 1</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container">
+                    <h2><b>Vul onderstaande gegevens in </b></h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="e-mail">E-mailadres</label>
+                            <input type="email" class="form-control" id="e-mail" aria-  describedby="emailHelp" placeholder="E-mailadres">
+                            <small id="emailHelp" class="form-text text-muted">
+                                Wij geven uw persoonlijke gegevens nooit door aan andere organisaties.
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Wachtwoord</label>
+                            <input type="password" class="form-control" id="password" placeholder="Wachtwoord">
+                        </div>
+                        <div class="form-group">
+                            <label for="keuze">Betaalwijze</label>
+                            <select class="form-control" id="keuze">
+                                <option>iDeal</option>
+                                <option>Cash</option>
+                                <option>CreditCard</option>
+                                <option>Rembours</option>
+                                <option>Polaroid</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleSelect2">Welke instrumenten bespeelt u</label>
+                            <select multiple class="form-control" id="exampleSelect2">
+                                <option>Piano</option>
+                                <option>Kerkorgel</option>
+                                <option>Viool</option>
+                                <option>Didgeridoo</option>
+                                <option>Gitaar</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tekstvak">Eventuele op of aanmerkingen:</label>
+                            <textarea class="form-control" id="tekstvak" rows="4"></textarea>
+                        </div>
+                        <fieldset class="form-group">
+                            <legend>Radio buttons</legend>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios"   id="optionsRadios1" value="option1" checked>
+                                Er is al een selectie gemaakt voor u-- dat is een uitstekende keuze
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios"   id="optionsRadios2" value="option2">
+                                Wordt voor optie 2 gekozen, wordt de keuze voor optie 1 ongedaan gemaakt.
+                                </label>
+                            </div>
+                            <div class="form-check disabled">
+                                <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios"   id="optionsRadios3" value="option3" disabled>
+                                Optie drie kan niet gekozen worden.
+                                </label>
+                            </div>
+                        </fieldset>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input">
+                            Ik heb geen zin om de algemene voorwaarden te lezen
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Verstuur</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>
